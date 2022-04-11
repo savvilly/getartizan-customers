@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:p-8 p-4 mt-16 w-full bg-gray-50">
+  <div class="lg:p-8 p-5 mt-16 w-full bg-gray-50">
     <div class="flex justify-between">
       <div class="text-4xl mb-8 relative w-64">
         <div class="opacity-40">Hey there!</div>
