@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:p-8 p-5 mt-16 w-full bg-gray-50">
+  <div class="lg:p-8 p-5 lg:mt-0 mt-16 w-full bg-gray-50">
     <div class="flex justify-between">
       <div class="text-4xl mb-8 relative w-64">
         <div class="opacity-40">Hey there!</div>
@@ -38,7 +38,7 @@
           <div class="text-4xl text-white font-black">20</div>
         </div>
         <div class="absolute top-0 right-0">
-          <img class="h-24" src="@/static/patterns/1.png" alt="" />
+          <img class="h-24" src="@/static/patterns/3.png" alt="" />
         </div>
       </div>
     </div>

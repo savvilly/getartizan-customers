@@ -14,33 +14,23 @@
           </div>
         </NuxtLink>
         <NuxtLink to="/bookings">
-          <div class="text-lg capitalize my-8 opacity-40">
+          <div class="text-lg capitalize my-8">
             <span class="mdi mx-3 mdi-book"></span>
             bookings
           </div>
         </NuxtLink>
         <NuxtLink to="/account">
-          <div class="text-lg capitalize my-8 opacity-40">
+          <div class="text-lg capitalize my-8">
             <span class="mdi mx-3 mdi-account-circle"></span>
             account
           </div>
         </NuxtLink>
       </div>
     </div>
-    <div
-      class="
-        lg:hidden
-        block
-        absolute
-        w-full
-        left-0
-        top-0
-        h-20
-      "
-    >
+    <div class="lg:hidden block absolute w-full left-0 top-0 h-20">
       <div @click="toggle" class="p-3">
         <button>
-          <img src="@/static/hamburger.png" class="w-10" alt="">
+          <img src="@/static/hamburger.png" class="w-10" alt="" />
         </button>
       </div>
     </div>
@@ -53,10 +43,10 @@ export default {
       sidebar: true,
     };
   },
-  mounted(){
+  mounted() {
     const width = window.innerWidth;
-    if(width <= 800){
-      this.toggle()
+    if (width <= 800) {
+      this.toggle();
     }
   },
   methods: {
@@ -71,5 +61,8 @@ export default {
   #sidebar {
     display: none;
   }
+}
+a.nuxt-link-exact-active {
+  color: #6545e4;
 }
 </style>
