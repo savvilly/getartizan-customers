@@ -22,10 +22,10 @@
           />
         </div>
         <div class="text-center my-6">
-          <NuxtLink to="/auth/onboarding">
+          <NuxtLink to="/">
             <input
               type="button"
-              value="continue"
+              value="Sign Up"
               class="uppercase text-sm p-3 bg-blue text-white lg:w-96 w-full"
             />
           </NuxtLink>
