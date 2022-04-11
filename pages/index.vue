@@ -1,12 +1,12 @@
 <template>
-  <div class="flex">
-      <Sidebar />
-      <Dashboard />
+  <div class="flex app">
+    <Sidebar />
+    <Dashboard />
   </div>
 </template>
 
 <script>
-import Sidebar from '~/components/Sidebar.vue';
+import Sidebar from "~/components/Sidebar.vue";
 export default {
   components: { Sidebar },
   name: "IndexPage",
@@ -16,5 +16,7 @@ export default {
 input:focus {
   outline: none !important;
 }
-
+.app {
+  overflow-x: hidden !important;
+}
 </style>
