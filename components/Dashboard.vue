@@ -232,7 +232,17 @@
           Notifications
         </div>
 
-        <div class="flex justify-evenly p-2 bg-white rounded-md mt-2">
+        <div
+          class="
+            flex
+            lg:justify-evenly
+            justify-between
+            p-2
+            bg-white
+            rounded-md
+            mt-2
+          "
+        >
           <div class="bg-gray-100 p-3 rounded-full">
             <img src="@/static/notification.png" alt="" />
           </div>
@@ -243,7 +253,17 @@
             </div>
           </div>
         </div>
-        <div class="flex justify-evenly p-2 bg-white rounded-md mt-2">
+        <div
+          class="
+            flex
+            lg:justify-evenly
+            justify-between
+            p-2
+            bg-white
+            rounded-md
+            mt-2
+          "
+        >
           <div class="bg-gray-100 p-3 rounded-full">
             <img src="@/static/notification.png" alt="" />
           </div>
@@ -254,7 +274,17 @@
             </div>
           </div>
         </div>
-        <div class="flex justify-evenly p-2 bg-white rounded-md mt-2">
+        <div
+          class="
+            flex
+            lg:justify-evenly
+            justify-between
+            p-2
+            bg-white
+            rounded-md
+            mt-2
+          "
+        >
           <div class="bg-gray-100 p-3 rounded-full">
             <img src="@/static/notification.png" alt="" />
           </div>
@@ -265,7 +295,17 @@
             </div>
           </div>
         </div>
-        <div class="flex justify-evenly p-2 bg-white rounded-md mt-2">
+        <div
+          class="
+            flex
+            lg:justify-evenly
+            justify-between
+            p-2
+            bg-white
+            rounded-md
+            mt-2
+          "
+        >
           <div class="bg-gray-100 p-3 rounded-full">
             <img src="@/static/notification.png" alt="" />
           </div>
@@ -282,12 +322,12 @@
 </template>
 <script>
 export default {
-  methods:{
-    toggle(){
-      document.getElementById('')
-    }
-  }
-}
+  methods: {
+    toggle() {
+      document.getElementById("");
+    },
+  },
+};
 </script>
 <style scoped>
 th,
