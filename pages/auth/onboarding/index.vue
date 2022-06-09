@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="lg:w-2/3 lg:h-screen">
-      <div class="lg:mt-32 lg:block hidden">
+      <div class="mt-10 lg:block hidden">
         <img class="w-80 mx-auto" src="@/static/logo.png" alt="" />
       </div>
       <div
@@ -29,44 +29,50 @@
           bg-white
         "
       >
-        <div class="text-3xl font-bold text-blue">Forgot password</div>
-        <div class="text-sm">
-          Enter your mail so we'll send you a link to reset your password
+        <div class="text-3xl mb-6 text-blue font-bold">Onboarding</div>
+        <input class="hidden" type="file" id="photo" name="photo" />
+        <div
+          class="
+            w-32
+            mb-6
+            mx-auto
+            h-32
+            border-none bg-gray border-none bg-gray-lavender
+            rounded-xl
+            text-center
+          "
+        >
+          <label class="text-sm" for="photo">Upload Photo</label>
+        </div>
+
+        <div class="text-base">Guarantor Details</div>
+        <div>
+          <input
+            type="text"
+            placeholder="Enter Guarantor Name "
+            class="border-none bg-gray my-3  text-sm w-full p-2"
+          />
         </div>
         <div>
           <input
-            type="email"
-            placeholder="Email"
-            class="
-              border-none bg-gray-none
-              bg-gray
-              my-3
-              
-              text-sm
-              w-full
-              p-2
-              bg-gray-50
-            "
+            type="number"
+            placeholder="Enter Guarantor Phone Number "
+            class="border-none bg-gray my-3  text-sm w-full p-2"
           />
         </div>
         <div class="text-center my-6">
-          <NuxtLink to="/auth/reset-password">
+          <NuxtLink to="/">
             <input
               type="button"
-              value="Submit"
-              class="uppercase text-sm p-3 bg-blue text-white w-full"
+              value="Register"
+              class="uppercase text-sm p-3 bg-blue text-white lg:w-96 w-full"
             />
           </NuxtLink>
-        </div>
-        <div class="capitalize text-sm">
-          chai i remember my password now
-          <NuxtLink class="text-blue" to="/auth/login">Login</NuxtLink>
         </div>
       </div>
     </div>
   </div>
 </template>
-
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 input:focus {

@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-2 text-center">
+  <div class="pt-8 text-center">
     <div class="text-3xl">Update Information</div>
     <div class="w-full mx-auto">
       <div>
@@ -14,6 +14,7 @@
             w-full
             border-l-0 border-r-0
             p-2
+            bg-gray-50
           "
         />
       </div>
@@ -29,6 +30,7 @@
             w-full
             border-l-0 border-r-0
             p-2
+            bg-gray-50
           "
         />
       </div>
@@ -44,6 +46,7 @@
             w-full
             border-l-0 border-r-0
             p-2
+            bg-gray-50
           "
         />
       </div>
@@ -57,7 +60,7 @@
             w-full
             border-l-0 border-r-0
             p-2
-            bg-transparent
+            bg-gray-50
           "
         >
           <option value="">Select your gender</option>
@@ -73,7 +76,7 @@
             w-full
             border-l-0 border-r-0
             p-2
-            bg-transparent
+            bg-gray-50
           "
         >
           <option value="">Select your state</option>
@@ -89,7 +92,7 @@
             w-full
             border-l-0 border-r-0
             p-2
-            bg-transparent
+            bg-gray-50
           "
         >
           <option value="">Select your LGA</option>
@@ -105,26 +108,11 @@
             w-full
             border-l-0 border-r-0
             p-2
-            bg-transparent
+            bg-gray-50
           "
         >
           <option value="">Select your Area of Specialization</option>
         </select>
-      </div>
-      <div>
-        <input
-          type="password"
-          placeholder="Password"
-          class="
-            border
-            my-3
-            border-t-0
-            text-sm
-            w-full
-            border-l-0 border-r-0
-            p-2
-          "
-        />
       </div>
     </div>
     <div class="text-center my-6">

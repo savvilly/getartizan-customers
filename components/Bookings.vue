@@ -4,7 +4,15 @@
     <div class="lg:mx-20">
       <div>
         <input
-          class="border my-3 border-t-0 text-sm border-l-0 border-r-0 p-2"
+          class="
+            border
+            my-3
+            border-t-0
+            bg-gray-50
+            text-sm
+            border-l-0 border-r-0
+            p-2
+          "
           type="text"
           placeholder="Title"
         />
@@ -19,6 +27,7 @@
             text-sm
             border-l-0 border-r-0
             p-2
+            bg-gray-50
           "
         >
           <option value="">Choose Category</option>
@@ -26,28 +35,60 @@
       </div>
       <div>
         <input
-          class="border my-3 border-t-0 text-sm border-l-0 border-r-0 p-2"
+          class="
+            border
+            my-3
+            border-t-0
+            bg-gray-50
+            text-sm
+            border-l-0 border-r-0
+            p-2
+          "
           type="text"
           placeholder="Artisan Location"
         />
       </div>
       <div>
         <input
-          class="border my-3 border-t-0 text-sm border-l-0 border-r-0 p-2"
+          class="
+            border
+            my-3
+            border-t-0
+            bg-gray-50
+            text-sm
+            border-l-0 border-r-0
+            p-2
+          "
           type="text"
           placeholder="Budget"
         />
       </div>
       <div>
         <input
-          class="border my-3 border-t-0 text-sm border-l-0 border-r-0 p-2"
+          class="
+            border
+            my-3
+            bg-gray-50
+            border-t-0
+            text-sm
+            border-l-0 border-r-0
+            p-2
+          "
           type="text"
           placeholder="Job Address"
         />
       </div>
       <div>
         <textarea
-          class="border my-3 border-t-0 text-sm border-l-0 border-r-0 p-2"
+          class="
+            border
+            my-3
+            border-t-0
+            bg-gray-50
+            text-sm
+            border-l-0 border-r-0
+            p-2
+          "
           placeholder="Job Description"
         ></textarea>
       </div>

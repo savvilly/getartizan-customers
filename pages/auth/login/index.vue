@@ -1,50 +1,77 @@
 <template>
-  <div class="lg:flex">
-    <div class="lg:w-1/3 bg-blue lg:block hidden h-screen">
-      <img class="mt-20 move" src="@/static/login.png" alt="" />
+  <div class="lg:flex bg-gray">
+    <div class="lg:w-2/3 relative">
+      <img class="w-full h-full" src="@/static/auth/Image1.jpg" alt="" />
+      <div class="w-full h-full opacity-50 bg-black absolute top-0">
+        <div class="text-white absolute bottom-20 sm:bottom-40 lg:px-20 px-8">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+          neque. Ducimus dolor cupiditate delectus? Ducimus veniam, beatae
+          libero, consectetur iste omnis repellat et obcaecati doloremque porro,
+          itaque assumenda aperiam labore!
+        </div>
+      </div>
     </div>
-    <div class="lg:w-2/3 grid place-items-center h-screen">
-      <div class="w-full lg:px-20 p-8">
-        <div class="text-3xl mb-6 text-blue font-bold">Login</div>
+    <div class="lg:w-2/3 lg:h-screen">
+      <div class="mt-10 lg:block hidden">
+        <img class="w-80 mx-auto" src="@/static/logo.png" alt="" />
+      </div>
+      <div
+        class="
+          sm:absolute
+          top-80
+          lg:w-2/3 lg:mt-0
+          mx-auto lg:my-0
+          w-full
+          p-8
+          shadow-lg
+          rounded-md
+          bg-white
+        "
+      >
+        <div class="text-3xl mb-6 text-blue font-bold">
+          Log into your account
+        </div>
         <div>
           <input
             type="email"
             placeholder="Email"
-            class="
-              border
-              my-3
-              border-t-0
-              text-sm
-              w-full
-              border-l-0 border-r-0
-              p-2
-            "
+            class="my-3 text-sm w-full p-2 bg-gray border-none bg-gray-none"
           />
         </div>
         <div>
           <input
             type="password"
             placeholder="Password"
-            class="
-              border
-              my-3
-              border-t-0
-              text-sm
-              w-full
-              border-l-0 border-r-0
-              p-2
-            "
+            class="border-none bg-gray-none my-3 text-sm w-full p-2 bg-gray"
           />
         </div>
         <div class="text-center my-6">
           <input
             type="button"
             value="login"
-            class="uppercase text-sm p-3 bg-blue text-white lg:w-96 w-full"
+            class="
+              uppercase
+              text-sm
+              p-3
+              bg-blue
+              text-white
+              w-full
+              hover:opacity-90
+            "
           />
         </div>
         <div class="text-center capitalize text-sm">or sign up with</div>
-        <div class="flex justify-between w-40 mx-auto my-6">
+        <div
+          class="
+            flex
+            justify-between
+            w-40
+            mx-auto
+            my-6
+            text-blue
+            hover:opacity-90
+          "
+        >
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -88,15 +115,13 @@
             </svg>
           </div>
         </div>
-        <div class="lg:flex justify-between capitalize text-sm my-4">
-          <div class="sm:my-6">
-            don't have an account?
-            <NuxtLink to="/auth/signup" class="text-blue mx-3">Signup</NuxtLink>
+        <div class="flex justify-between capitalize text-sm my-4">
+          <div class="">
+            New user?
+            <NuxtLink to="/auth/signup" class="text-blue mx-1">Signup</NuxtLink>
           </div>
           <div class="text-blue">
-            <NuxtLink to="/auth/forgot-password">
-              Opps forgot my password</NuxtLink
-            >
+            <NuxtLink to="/auth/forgot-password"> forgot password?</NuxtLink>
           </div>
         </div>
       </div>
